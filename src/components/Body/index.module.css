@@ -1,0 +1,144 @@
+.post {
+    width: 100%;
+    border-radius: 8px;
+    background: var(--white);
+    border: 1px solid var(--green-100);
+    padding: 2.5rem;
+}
+
+
+.post>header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 1.625rem;
+    margin-bottom: 1.23rem;
+    margin-top: -32rem;
+
+}
+
+.avatar {
+    box-sizing: border-box;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--green-100);
+}
+
+time {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2.625rem;
+    margin-bottom: 1.23rem;
+
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+.informations {
+    width: 100%;
+    height: 30rem;
+    margin-left: 1.5rem;
+    margin-top: -32rem;
+
+}
+
+.informations>a {
+    color: var(--green-200);
+    text-decoration: none;
+}
+
+.lineDiv{
+    display: flex;
+    margin-top: -32%;
+}
+
+.line {
+    display: flex;
+
+    width: 100%;
+    left: 10%;
+
+    border: 1px solid var(--gray-800);
+    margin-bottom: 2%;
+
+}
+
+.feed{
+    display: flex;
+}
+
+.feedback {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.textFild {
+
+    /* position: absolute; */
+    width: 100%;
+    height: 96px;
+    left: 10%;
+    top: 59rem;
+    resize: none;
+    padding: 10px;
+
+    background: var(--gray-300);
+    /* border: 1px solid var(--green-200); */
+    border: none;
+    border-radius: 8px;
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 25px;
+
+    width: 7rem;
+    height: 3rem;
+
+
+    border: none;
+
+    background: var(--green-100);
+    border-radius: 8px;
+    margin-top: 3%;
+}
+
+.buttons:hover {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 25px;
+
+    width: 7rem;
+    height: 3rem;
+    left: 10%;
+    top: 68rem;
+    border: none;
+
+    background: var(--green-200);
+    border-radius: 8px;
+}
